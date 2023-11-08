@@ -26,34 +26,34 @@ peers:
     peerIlpAddress: test.cloud-nine-wallet
     liquidityThreshold: 100000
 accounts:
-  - name: 'Philip Fry'
+  - name: 'recycler1'
     path: accounts/pfry
     id: 97a3a431-8ee1-48fc-ac85-70e2f5eba8e5
-    initialBalance: 1
+    initialBalance: 0
     postmanEnvVar: pfryPaymentPointer
     assetCode: USD
-  - name: 'PlanEx Corp'
+  - name: 'recycler2'
     id: a455cc54-b583-455b-836a-e5275c5c05b7
-    initialBalance: 2000
+    initialBalance: 0
     path: accounts/planex
     postmanEnvVar: planexPaymentPointer
     assetCode: USD
-  - name: 'Alice Smith'
+  - name: 'recycler3'
     path: accounts/asmith
     id: f47ac10b-58cc-4372-a567-0e02b2c3d479
-    initialBalance: 500
+    initialBalance: 0
     postmanEnvVar: asmithPaymentPointer
     skipPaymentPointerCreation: true
     assetCode: USD
-  - name: 'Lars'
+  - name: 'recycler4'
     path: accounts/lars
     id: fd4ecbc9-205d-4ecd-a030-507d6ce2bde6
-    initialBalance: 5000
+    initialBalance: 0
     assetCode: EUR
-  - name: 'David'
+  - name: 'recycler5'
     path: accounts/david
     id: 60257507-3191-4507-9d77-9071fd6b3c30
-    initialBalance: 150000
+    initialBalance: 0
     assetCode: MXN
 rates:
   EUR:
