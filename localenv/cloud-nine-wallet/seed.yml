@@ -26,21 +26,21 @@ peers:
     peerIlpAddress: test.happy-life-bank
     liquidityThreshold: 10000
 accounts:
-  - name: 'Grace Franklin'
+  - name: 'Acme Recycling Company'
     path: accounts/gfranklin
     id: 742ab7cd-1624-4d2e-af6e-e15a71638669
-    initialBalance: 4000
+    initialBalance: 40000000
     postmanEnvVar: gfranklinPaymentPointer
     assetCode: USD
-  - name: 'Bert Hamchest'
+  - name: 'Green Recycling Company'
     id: a9adbe1a-df31-4766-87c9-d2cb2e636a9b
-    initialBalance: 4000
+    initialBalance: 400000
     path: accounts/bhamchest
     postmanEnvVar: bhamchestPaymentPointer
     assetCode: USD
-  - name: "World's Best Donut Co"
+  - name: "A Better World Recycling Company"
     id: 5726eefe-8737-459d-a36b-0acce152cb90
-    initialBalance: 2000
+    initialBalance: 2000000
     path: accounts/wbdc
     postmanEnvVar: wbdcPaymentPointer
     assetCode: USD
